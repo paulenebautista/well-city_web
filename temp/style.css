@@ -1,0 +1,136 @@
+/*
+stylesheet for index.html
+*/
+body {
+    margin: auto;
+    background-color: #fcf2f2;
+    text-align: justify;
+}
+
+nav{ 
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.head {
+    font-size: 40px;
+    color: #009900;
+    font-weight: bold;
+}
+.appointment {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    right: auto;
+    float: right;
+}
+.records {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    right: auto;
+    float: right;
+}
+.notifications {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    right: auto;
+    float: right;
+    margin-top: 15px;
+}
+.profile {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    right: auto;
+    float: right;
+}
+.profile_avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo {
+    vertical-align: middle;
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    padding-bottom: 12px;
+}
+.navigation_bar {
+    position: sticky;
+    top: 0;
+    background-color: #78947c; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-bottom-left-radius: 39px; 
+    border-bottom-right-radius: 39px;
+    box-shadow: 100px #000000;
+}
+.navigation_bar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 8px;
+    position:sticky;
+}
+.navigation_bar a:hover {
+     color: black;
+}
+.navigation_bar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.navigation_bar input[type=text] {
+    float: right;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    vertical-align: middle;
+}
+.body_sec {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #fcf0f0;
+    border-top-left-radius: 39px; 
+    border-top-right-radius: 39px;
+}
+.ftr_logo {
+    vertical-align: middle;
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+/* Monitor CSS */
+
