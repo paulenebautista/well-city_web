@@ -1,5 +1,5 @@
 <?php
-		include ('server/connection.php');
+		include ('../../server/connection.php');
 ?>
  <!DOCTYPE html>
     <html>
@@ -190,6 +190,6 @@
       }
       </script>
        <?php 
-        include ('temp/footer.php'); 
+        include ('../../temp/footer.php'); 
     ?>
   </html> 

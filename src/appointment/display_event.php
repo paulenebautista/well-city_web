@@ -1,5 +1,5 @@
 <?php                
-require 'server/connection.php'; 
+require '../../server/connection.php'; 
 $display_query = "select event_id,event_name,event_start_date,event_end_date from tbl_calendar_event";             
 $results = mysqli_query($conn, $display_query);   
 $count = mysqli_num_rows($results);  
