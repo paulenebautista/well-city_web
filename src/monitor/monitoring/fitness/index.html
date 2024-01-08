@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Plan Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Plan Generator</h1>
+        <form id="fitnessForm" action="plan_generator.php" method="post">
+            <label for="userGoals">Fitness Goals:</label>
+            <input type="text" id="userGoals" name="userGoals" required>
+
+            <label for="userFitnessLevel">Fitness Level:</label>
+            <input type="text" id="userFitnessLevel" name="userFitnessLevel" required>
+
+            <label for="healthConsiderations">Health Considerations:</label>
+            <input type="text" id="healthConsiderations" name="healthConsiderations" required>
+
+            <label for="availability">Days Available per Week:</label>
+            <input type="number" id="availability" name="availability" required>
+
+            <button type="button" onclick="generateFitnessPlan()">Generate Fitness Plan</button>
+        </form>
+
+        <div id="fitnessPlanContainer" class="hidden">
+            <h2>Fitness Plan:</h2>
+            <div id="fitnessPlan"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

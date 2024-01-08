@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monitoring System</h1>
+        <div id="inputContainer">
+            <label for="metricValue">Enter Metric Value:</label>
+            <input type="number" id="metricValue" required>
+            <button onclick="monitorMetric()">Monitor Metric</button>
+        </div>
+
+        <div id="monitorData">
+            <!-- Data will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@
     <title> Home </title>
     <!---header and nav bar--->
     <?php 
-        include ('../..//temp/header.php'); 
+        include ('../../temp/header.php'); 
     ?>
 <head>
     <meta charset="UTF-8">

@@ -8,12 +8,12 @@
 </head>
 <body>
             <nav class = "navigation_bar">
-                <a href="profile.php"> <img src="res/unknown profile.png" alt="profile icon" class="profile_avatar" id="navbarProfilePic"> </a>
-                <a href = "monitor.php" style="margin-top: 10px;"> Monitor </a>
+                <a href="../profile/index.php"> <img src="res/unknown profile.png" alt="profile icon" class="profile_avatar" id="navbarProfilePic"> </a>
+                <a href = "../monitor/index.php" style="margin-top: 10px;"> Monitor </a>
                 <a href = "../maps/index.php" style="margin-top: 10px;"> Nearby Hospital </a>
-                <a href = "records.php" style="margin-top: 10px;"> Records </a>
-                <a href = "appointment.php" style="margin-top: 10px;"> Appointment </a>  
-                <div class= "logo"><a href = "homepage.php"> <img src ="res/WELL CITY LOGO.png" alt="well city logo" class = "logo" >  </a></div>
+                <a href = "../records/index.php" style="margin-top: 10px;"> Records </a>
+                <a href = "../appointment/index.php" style="margin-top: 10px;"> Appointment </a>  
+                <div class= "logo"><a href = "../homepage/index.php"> <img src ="res/WELL CITY LOGO.png" alt="well city logo" class = "logo" >  </a></div>
             </nav>
 
         <script>
